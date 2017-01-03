@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Loan Application</title>
+	<link rel="stylesheet" href="normalize.css">
+        <link href='http://fonts.googleapis.com/css?family=Nunito:400,300' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<h1>All-Purpose Loan Application</h1>
+
+
+<form action="fakebank.com" method="post">
+
+	<fieldset>
+
+	  <legend>Your Name</legend>
+
+	  	<label for="first name">first name</label>
+		<input type="text" id="firstname" name="first name">
+
+	  	<label for="last name">last name</label>
+		<input type="text" id="lastname" name="last name" >
+
+	  	<label for="middle initial">middle initial</label>
+		<input type="text" id="middle inital" max=1 name="middle initial">
+
+	</fieldset>
+
+	<fieldset>
+
+	  <legend>Contact Info</legend>
+
+	  	<label for="street">street address</label>
+		<input type="text"  id="street" name="street address" >
+
+	  	<label for="city">city</label>
+		<input type="text" id="city" name="city">
+
+	  	<label for="state">state</label>
+		<input type="text"  id="state" name="state">
+
+	  	<label for="zip"><zip/label>
+		<input type="text" id="zip"  name="zip">
+
+		<label for="email">email</label>
+		<input type="email" id="email" name="email">
+
+		<label for="telephone">telephone</label>
+		<input type="tel"  id="telephone" name="telephone">
+
+		<label for="linkedin">linkedIn url</label>
+		<input type="url" id="linkedin" name="linkedin url">
+
+	</fieldset>
+
+	<fieldset>
+
+	  <legend>Employer Info</legend>
+
+	  	<label for="employer name">employer name</label>
+		<input type="text" id="employer name" name="employer name">
+
+	  	<label for="employer telephone">employer telephone</label>
+		<input type="tel" id="employer telephone" name="employer telephone">
+
+	  	<label for="employer street">street</label>
+		<input type="text" id="employer street" name="employer street">
+
+	  	<label for="employer city">city</label>
+		<input type="text" id="employer city" name="employer city">
+
+		<label for="employer state">state</label>
+		<input type="text" id="employer state" name="employer state">
+
+		<label for="employer zip">zip</label>
+		<input type="text" id="employer zip" name="employer zip">
+
+	</fieldset>
+
+	<fieldset>
+
+	  <legend>Loan Type</legend>
+
+		<select name="loan type" id="type">
+
+			<optgroup>
+				<option value="select one">select loan type</optgroup>
+				<option value="commercial">commercial</option>
+				<option value="real estate">real estate</option>
+				<option value="personal">personal</option>
+				<option value="mortgage">mortgage</option>
+			</optgroup>
+		</select>
+
+	<fieldset>
+
+	  <legend>Loan Term</legend>
+
+		<input type="radio" name="5 years" value="5 years"> 5 years <br>
+		<input type="radio" name="15 years" value="15 years"> 15 years <br>
+		<input type="radio" name="30 years" value="30 years"> 30 years 
+
+	</fieldset>
+
+	<fieldset>
+
+	  <legend>Special Conditions</legend>
+
+		<input type="checkbox" name="special conditions" value="down payment"> I have a down payment <br> 
+		<input type="checkbox" name="special conditions" value="Married"> I am Married <br>
+		<input type="checkbox" name="special conditions" value="co-signed"> Loan will be co-signed
+	</fieldset>
+
+	<textarea name="additionalcomments" cols="50" rows="10"></textarea>
+
+	<input type="submit" class="button" name="submit">
+
+</form>
+	
+</body>
+</html>
